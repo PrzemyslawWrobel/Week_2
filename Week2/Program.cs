@@ -69,7 +69,15 @@ namespace Week2
 
         public static void Zadanie_4()
         {
-
+            int a;
+            double b;
+            string c;
+            a = 10;
+            b = 12.5;
+            c = "Szkoła Dotneta";
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
         }
 
         public static void Zadanie_5()
