@@ -82,6 +82,32 @@ namespace Week2
 
         public static void Zadanie_5()
         {
+            Console.WriteLine("Cześć, podaj kilka informacji o sobie: ");
+            Console.Write("Imię:");
+            string firstName = Console.ReadLine();
+
+            Console.Write("Nazwisko:");
+            string surname = Console.ReadLine();
+
+            Console.Write("Nr telefonu:");
+            int phoneNumber = int.Parse(Console.ReadLine());
+
+            Console.Write("Wiek:");
+            byte age = byte.Parse(Console.ReadLine());
+
+            Console.Write("Addres e-mail:");
+            string eAddress = Console.ReadLine();
+
+            Console.Write("Waga (kg):");
+            double weight = double.Parse(Console.ReadLine());
+
+            Console.Write("Wzrost (cm):");
+            byte height = byte.Parse(Console.ReadLine());
+
+
+            Console.WriteLine("\r\nYour personal data:");
+            Console.WriteLine($"First Name: {firstName}\r\nSurname: {surname}\r\n" +
+                $"Phone Number: {phoneNumber}\r\nAge: {age}\r\nEmail address: {eAddress}\r\nWeight: {weight}kg\r\nHeight: {height}cm");
 
         }
 
