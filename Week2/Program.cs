@@ -6,7 +6,8 @@ namespace Week2
     {
         static void Main(string[] args)
         {
-            Zadanie_1();
+            //Zadanie_1();
+            Zadanie_2();
         }
         /// <summary>
         /// cw deklaracja zmiennych oraz ich prezentacja na ekranie
@@ -33,6 +34,48 @@ namespace Week2
             //Console.ReadKey();
         }
 
+        public static void Zadanie_2()
+        {
+            Console.WriteLine("Przykłdowa deklaracja znaków kodzie programu: ");
+            char a = 'A';
+            char b = 'B';
+            char c = 'C';
+            Console.WriteLine("Zadeklarowane znaki to: " + c +" "+ b +" "+ a);
+
+            //char a, b, c;
+            Console.WriteLine(" ");
+            Console.WriteLine("Użytkowniku podaj pierwszy znak: ");
+            Console.WriteLine("Podaj znak: ");
+            a = char.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj znak: ");
+            b = char.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj znak: ");
+            c = char.Parse(Console.ReadLine());
+            Console.WriteLine("Zadeklarowane znaki w odwrotnej kolejności to: " + c.ToString() + " " + b.ToString() + " " + a.ToString());
+        }
+
+        public static void Zadanie_3()
+        {
+            Console.WriteLine("Program oblicza długość przekątnej prostokąta");
+            double a, b, d;
+            Console.WriteLine("Podaj długość prostokąta: ");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj szerokość prostokąta: ");
+            b = double.Parse(Console.ReadLine());
+            d = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            Console.WriteLine("Przekątna prostokąta ma długość: " + d.ToString());
+
+        }
+
+        public static void Zadanie_4()
+        {
+
+        }
+
+        public static void Zadanie_5()
+        {
+
+        }
 
     }
 }
